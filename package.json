@@ -1,0 +1,25 @@
+{
+  "name": "babel-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"babel es6 -d es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammffl/babel-es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammffl/babel-es6/issues"
+  },
+  "homepage": "https://github.com/sammffl/babel-es6#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.11.0"
+  }
+}
